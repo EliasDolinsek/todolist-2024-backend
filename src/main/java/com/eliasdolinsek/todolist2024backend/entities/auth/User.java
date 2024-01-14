@@ -1,4 +1,4 @@
-package com.eliasdolinsek.todolist2024backend.entities;
+package com.eliasdolinsek.todolist2024backend.entities.auth;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -26,5 +26,8 @@ public class User {
 
     @Column(name = "last_name", nullable = false)
     private String lastName;
+
+    @Column(nullable = false)
+    private String password;
 
 }

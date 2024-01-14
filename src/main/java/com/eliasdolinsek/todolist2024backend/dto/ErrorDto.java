@@ -1,2 +1,4 @@
-package com.eliasdolinsek.todolist2024backend.dto.auth;public class ErrorDto {
+package com.eliasdolinsek.todolist2024backend.dto;
+
+public record ErrorDto(String message) {
 }

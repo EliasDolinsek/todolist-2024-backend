@@ -1,4 +1,4 @@
-package com.eliasdolinsek.todolist2024backend.dto;
+package com.eliasdolinsek.todolist2024backend.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
